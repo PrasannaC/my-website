@@ -3,7 +3,6 @@ import Nav from './components/Nav'
 import FadeIn from './components/FadeIn'
 import Bounce from './components/Bounce'
 import AboutCard from './components/AboutCard'
-import Anime from 'react-anime'
 function App() {
 
 

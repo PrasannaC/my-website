@@ -1,6 +1,5 @@
 import { useState } from "react"
 // import FadeIn from './FadeIn'
-import Anime from 'react-anime'
 
 const AboutCard = () => {
 
