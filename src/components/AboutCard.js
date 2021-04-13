@@ -1,15 +1,17 @@
 import { useState } from "react"
+// import FadeIn from './FadeIn'
+import Anime from 'react-anime'
 
 const AboutCard = () => {
 
     const [counter, setCounter] = useState(0)
 
-    return <div className=" flex flex-col items-center px-5 py-20 space-y-2">
-        <div style={{ width: '45%' }} className="p-10 border-4 shadow rounded-md border-green-800">
+    return <div className="flex flex-col items-center px-5 py-20 space-y-2">
+        <div className="p-10 border-4 shadow rounded-md border-green-800 sm:w-100 md:w-45">
             <div className="font-bold text-green-700 text-6xl">I am Prasann Choudhari.</div>
             <div className="text-3xl font-mono font-semibold text-green-500"> I am a software engineer</div>
             <div className="font-bold text-xl text-green-900">I like building apps
-                with dotnet, and javascript and have been professionally developing apps for the past 6 years.
+                with dotnet, javascript, and have been professionally developing apps for the past 6 years.
             </div>
             <div className={counter % 2 === 0 ? "hidden" : "show"}>
                 <p className="my-2 text-green-800 text-xl">
