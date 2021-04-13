@@ -6,7 +6,7 @@ const Bounce = (props) => {
         easing: 'easeInOutQuint',
         duration: 500
     }
-    if (direction == "Y")
+    if (direction === "Y")
         animeProps.translateY = value
     else
         animeProps.translateX = value

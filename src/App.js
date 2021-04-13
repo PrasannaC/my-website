@@ -13,7 +13,7 @@ function App() {
       <FadeIn>
         <div className="flex-grow min-h-screen bg-gray-100 flex flex-col space-y-2 py-2 px-2 items-stretch">
           <Bounce direction="X" value={[50, 0]}>
-            <Nav> <a target="_blank" href="https://dogecoin.com/" className="text-2xl font-semibold hover:text-green-500">$DOGE</a> </Nav>
+            <Nav> <a target="_blank" rel="noreferrer" href="https://dogecoin.com/" className="text-2xl font-semibold hover:text-green-500">$DOGE</a> </Nav>
           </Bounce>
 
           <section className="flex-grow flex flex-col shadow-md rounded-md w-full bg-gray-50 m-auto">
